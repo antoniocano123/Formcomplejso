@@ -67,27 +67,30 @@
             // lboperador
             // 
             this.lboperador.AutoSize = true;
+            this.lboperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lboperador.Location = new System.Drawing.Point(222, 101);
             this.lboperador.Name = "lboperador";
-            this.lboperador.Size = new System.Drawing.Size(13, 13);
+            this.lboperador.Size = new System.Drawing.Size(18, 20);
             this.lboperador.TabIndex = 3;
             this.lboperador.Text = "+";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(398, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 13);
+            this.label2.Size = new System.Drawing.Size(18, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "=";
             // 
             // lbResultComplejo
             // 
             this.lbResultComplejo.AutoSize = true;
+            this.lbResultComplejo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbResultComplejo.Location = new System.Drawing.Point(463, 100);
             this.lbResultComplejo.Name = "lbResultComplejo";
-            this.lbResultComplejo.Size = new System.Drawing.Size(27, 13);
+            this.lbResultComplejo.Size = new System.Drawing.Size(39, 20);
             this.lbResultComplejo.TabIndex = 5;
             this.lbResultComplejo.Text = "0+0i";
             // 
@@ -121,6 +124,8 @@
             this.btnConjugar.TabIndex = 8;
             this.btnConjugar.Text = "Conjugar";
             this.btnConjugar.UseVisualStyleBackColor = true;
+            this.btnConjugar.Click += new System.EventHandler(this.btnConjugar_Click);
+            this.btnConjugar.MouseHover += new System.EventHandler(this.btnConjugar_MouseHover);
             // 
             // Form1
             // 
@@ -156,4 +161,9 @@
         private System.Windows.Forms.Button btnConjugar;
     }
 }
+
+
+
+
+
 
